@@ -1,0 +1,51 @@
+# Core Application Dependencies
+streamlit==1.28.1
+python-dotenv==1.0.0
+
+# LangGraph and LangChain Dependencies
+# Using LangGraph for modern agent workflows with human-in-the-loop capabilities
+langgraph>=0.6.8
+langchain>=0.3.27
+langchain-openai>=0.2.0
+langchain-core>=0.3.78
+langchain-community>=0.3.0
+
+# AI and ML Dependencies
+openai>=1.6.1,<2.0.0
+tiktoken>=0.7.0
+chromadb==0.4.18
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Database and Storage
+pymysql==1.1.0
+
+# Data Validation and Serialization
+pydantic>=2.7.4
+
+# Utilities
+loguru==0.7.2
+requests==2.31.0
+
+# Testing and Quality Assurance Dependencies
+# For continuous testing suite that monitors code quality
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+pytest-xdist>=3.5.0        # Parallel test execution
+pytest-watch>=4.2.0        # File watching for continuous testing
+pytest-html>=4.1.0         # HTML test reports
+pytest-mock>=3.12.0        # Mocking utilities
+
+# Test Monitoring and Reporting
+coverage>=7.4.0            # Code coverage tracking
+watchdog>=4.0.0            # File system monitoring
+colorama>=0.4.6            # Colored terminal output for test results
+
+# Development and CI/CD Support
+black>=24.0.0              # Code formatting
+flake8>=7.0.0              # Linting
+mypy>=1.8.0                # Type checking
+pre-commit>=3.6.0          # Git hooks for quality checks

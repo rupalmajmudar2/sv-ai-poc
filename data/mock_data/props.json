@@ -1,0 +1,10 @@
+[
+  {
+    "prop_id": "PROP001",
+    "type": "football",
+    "school_id": "SCH001",
+    "quantity": 10,
+    "available": 8,
+    "status": "good"
+  }
+]

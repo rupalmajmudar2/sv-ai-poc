@@ -1,0 +1,3 @@
+lesson_id|name|description|duration|required_props
+L001|Basic Football Skills|Introduction to football basics|60|football,cones
+L002|Advanced Football|Advanced football techniques|90|football,cones,goals

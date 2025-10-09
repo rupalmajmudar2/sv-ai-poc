@@ -1,0 +1,12 @@
+[
+  {
+    "lesson_id": "L001",
+    "name": "Basic Football Skills",
+    "description": "Introduction to football basics",
+    "duration": 60,
+    "required_props": [
+      "football",
+      "cones"
+    ]
+  }
+]

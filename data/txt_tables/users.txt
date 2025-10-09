@@ -1,0 +1,6 @@
+user_id|password|role|name|reports_to|school_id
+HO001|ho123|HO|Head Office User||
+RM001|rm123|RM|Regional Manager 1||
+DM001|dm123|DM|Delivery Manager 1|RM001|
+R001|r123|R|Resident 1|DM001|SCH001
+P001|p123|PRINCIPAL|Principal 1||SCH001

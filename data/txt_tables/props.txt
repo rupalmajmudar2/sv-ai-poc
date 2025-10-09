@@ -1,0 +1,3 @@
+prop_id|type|school_id|quantity|available|status
+PROP001|football|SCH001|10|8|good
+PROP002|cones|SCH001|20|18|good

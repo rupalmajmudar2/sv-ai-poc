@@ -1,0 +1,2 @@
+lesson_plan_id|school_id|session|lessons
+LP001|SCH001|2024-25|L001,L002

@@ -1,0 +1,5 @@
+school_id|class|section|period_number|time_slot|subject|is_pe_period
+SCH001|VI|A|1|08:00-09:00|Mathematics|false
+SCH001|VI|A|2|09:00-10:00|English|false
+SCH001|VI|A|3|10:00-11:00|Physical Education|true
+SCH001|VI|A|4|11:00-12:00|Science|false

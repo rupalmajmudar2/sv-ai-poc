@@ -1,0 +1,55 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+
+# Pycache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Database files
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# ChromaDB
+data/chromadb/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Coverage reports
+htmlcov/
+.coverage
+.pytest_cache/

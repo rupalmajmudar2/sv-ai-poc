@@ -1,0 +1,11 @@
+[
+  {
+    "school_id": "SCH001",
+    "class": "V",
+    "section": "A",
+    "period_number": 3,
+    "time_slot": "10:00-11:00",
+    "subject": "PE",
+    "is_pe_period": true
+  }
+]

@@ -1,0 +1,1226 @@
+{
+  "interactions": [
+    {
+      "timestamp": "2025-10-05T21:12:39.955752",
+      "session_id": "session_20251005_211239",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-06T09:29:49.300688",
+      "session_id": "session_20251006_092949",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-06T09:30:26.540707",
+      "session_id": "session_20251006_093026",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-06T09:49:45.573579",
+      "session_id": "session_20251006_094945",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:22:23.380278",
+      "session_id": "session_1760012541",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "rm001's name",
+        "message_length": 12,
+        "response": "I couldn't find any residents under the Regional Manager rm001. Would you like me to try searching for the Regional Manager's name using semantic search?",
+        "response_length": 153,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:22:38.817805",
+      "session_id": "session_1760012557",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "yes",
+        "message_length": 3,
+        "response": "Hello! How can I assist you today as the SportzVillage AI Assistant for Regional Manager 1 (RM)?",
+        "response_length": 96,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:22:57.498207",
+      "session_id": "session_1760012575",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "yes",
+        "message_length": 3,
+        "response": "Hello! How can I assist you today as the SportzVillage AI Assistant for Regional Manager 1 (RM)?",
+        "response_length": 96,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:23:24.899320",
+      "session_id": "session_1760012603",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "who does R001 report to?",
+        "message_length": 24,
+        "response": "There are no residents under manager R001. It seems that R001 does not have any direct reports.",
+        "response_length": 95,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "request",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:23:45.388414",
+      "session_id": "session_1760012622",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "who is R001 's manager?",
+        "message_length": 23,
+        "response": "It seems that there are no residents assigned to manager R001. If you have any other questions or need assistance, feel free to ask!",
+        "response_length": 132,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:23:53.376140",
+      "session_id": "session_1760012631",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "who is R001 's manager?",
+        "message_length": 23,
+        "response": "There are no residents found under the manager with ID R001. If you have another manager ID or resident ID in mind, please let me know so I can provide the relevant information.",
+        "response_length": 177,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:24:49.992636",
+      "session_id": "session_1760012688",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "Show all residents under manager RM001",
+        "message_length": 38,
+        "response": "There is one resident under Manager RM001:\n- Delivery Manager 1 (ID: DM001) who is currently not assigned to any school.",
+        "response_length": 120,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "help",
+        "contains_school_data": false,
+        "contains_resident_data": true,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:28:15.028022",
+      "session_id": "session_1760012893",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india",
+        "message_length": 16,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:40:14.695032",
+      "session_id": "session_1760013613",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:40:22.704335",
+      "session_id": "session_1760013621",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of france",
+        "message_length": 17,
+        "response": "The capital of France is Paris.",
+        "response_length": 31,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:43:11.490987",
+      "session_id": "session_1760013790",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:43:28.831828",
+      "session_id": "session_1760013807",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "Capital of India?",
+        "message_length": 17,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:43:40.398523",
+      "session_id": "session_1760013819",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "RM001's name?",
+        "message_length": 13,
+        "response": "The name of RM001 is Delivery Manager 1.",
+        "response_length": 40,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:44:05.820799",
+      "session_id": "session_1760013844",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "does not sound right",
+        "message_length": 20,
+        "response": "I apologize for any confusion. How can I assist you today?",
+        "response_length": 58,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:45:55.748384",
+      "session_id": "session_1760013954",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:46:11.199570",
+      "session_id": "session_1760013969",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india?",
+        "message_length": 17,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:50:53.004725",
+      "session_id": "session_1760014251",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T14:51:27.793587",
+      "session_id": "session_1760014284",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india",
+        "message_length": 16,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:01:47.917782",
+      "session_id": "session_1760014906",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[HUMAN]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage multiple Delivery Managers\n- Regional reporting and analytics\n- Oversee resident performance\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[HUMAN]: hi",
+        "prompt_tokens": 829,
+        "completion_tokens": 10,
+        "total_tokens": 839,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:10:02.996509",
+      "session_id": "session_1760015401",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hello world",
+        "message_length": 11,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[HUMAN]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage multiple Delivery Managers\n- Regional reporting and analytics\n- Oversee resident performance\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[HUMAN]: hello world",
+        "prompt_tokens": 830,
+        "completion_tokens": 10,
+        "total_tokens": 840,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:12:38.736726",
+      "session_id": "session_1760015557",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi sv",
+        "message_length": 5,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[HUMAN]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[HUMAN]: hi sv",
+        "prompt_tokens": 829,
+        "completion_tokens": 10,
+        "total_tokens": 839,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:12:53.118818",
+      "session_id": "session_1760015571",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india",
+        "message_length": 16,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[HUMAN]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[HUMAN]: capital of india\n\n[AI]: \n\n[TOOL]: Semantic search results for 'capital of india':\n\nNo results found for 'capital of india'",
+        "prompt_tokens": 874,
+        "completion_tokens": 9,
+        "total_tokens": 883,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:17:37.247709",
+      "session_id": "session_1760015855",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "What is the weather today?",
+        "message_length": 26,
+        "response": "I'm unable to provide real-time weather updates. You may want to check a weather website or app for the most current information. How can I assist you with SportzVillage-related queries today?",
+        "response_length": 192,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[USER]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage multiple Delivery Managers\n- Regional reporting and analytics\n- Oversee resident performance\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: What is the weather today?",
+        "prompt_tokens": 834,
+        "completion_tokens": 41,
+        "total_tokens": 875,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:19:41.432257",
+      "session_id": "session_1760015979",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "How many schools do we manage?",
+        "message_length": 30,
+        "response": "I couldn't find the exact number of schools we manage. Would you like me to try another approach to gather this information?",
+        "response_length": 124,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage multiple Delivery Managers\n- Regional reporting and analytics\n- Oversee resident performance\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: How many schools do we manage?\n\n[ASSISTANT]: \n\n[TOOL]: Semantic search results for 'number of schools managed':\n\nNo results found for 'number of schools managed'",
+        "prompt_tokens": 883,
+        "completion_tokens": 26,
+        "total_tokens": 909,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": true,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:24:55.809327",
+      "session_id": "session_1760016294",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: hi",
+        "prompt_tokens": 824,
+        "completion_tokens": 10,
+        "total_tokens": 834,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T15:25:09.574785",
+      "session_id": "session_1760016308",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of france",
+        "message_length": 17,
+        "response": "The capital of France is Paris.",
+        "response_length": 31,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: capital of france",
+        "prompt_tokens": 826,
+        "completion_tokens": 8,
+        "total_tokens": 834,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    }
+  ]
+}

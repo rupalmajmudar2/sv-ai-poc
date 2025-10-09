@@ -1,0 +1,164 @@
+timestamp,session_id,user_id,username,role,school_id,message,response,tools_used,response_time
+2025-10-05T21:12:39.955752,session_20251005_211239,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23
+2025-10-06T09:29:49.300688,session_20251006_092949,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23
+2025-10-06T09:30:26.540707,session_20251006_093026,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23
+2025-10-06T09:49:45.573579,session_20251006_094945,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23
+2025-10-09T14:22:23.380278,session_1760012541,RM001,Regional Manager 1,RM,,rm001's name,I couldn't find any residents under the Regional Manager rm001. Would you like me to try searching for the Regional Manager's name using semantic search?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:22:38.817805,session_1760012557,RM001,Regional Manager 1,RM,,yes,Hello! How can I assist you today as the SportzVillage AI Assistant for Regional Manager 1 (RM)?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:22:57.498207,session_1760012575,RM001,Regional Manager 1,RM,,yes,Hello! How can I assist you today as the SportzVillage AI Assistant for Regional Manager 1 (RM)?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:23:24.899320,session_1760012603,RM001,Regional Manager 1,RM,,who does R001 report to?,There are no residents under manager R001. It seems that R001 does not have any direct reports.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:23:45.388414,session_1760012622,RM001,Regional Manager 1,RM,,who is R001 's manager?,"It seems that there are no residents assigned to manager R001. If you have any other questions or need assistance, feel free to ask!","[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:23:53.376140,session_1760012631,RM001,Regional Manager 1,RM,,who is R001 's manager?,"There are no residents found under the manager with ID R001. If you have another manager ID or resident ID in mind, please let me know so I can provide the relevant information.","[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:24:49.992636,session_1760012688,RM001,Regional Manager 1,RM,,Show all residents under manager RM001,"There is one resident under Manager RM001:
+- Delivery Manager 1 (ID: DM001) who is currently not assigned to any school.","[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:28:15.028022,session_1760012893,RM001,Regional Manager 1,RM,,capital of india,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:40:14.695032,session_1760013613,RM001,Regional Manager 1,RM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:40:22.704335,session_1760013621,RM001,Regional Manager 1,RM,,capital of france,The capital of France is Paris.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:43:11.490987,session_1760013790,DM001,Delivery Manager 1,DM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:43:28.831828,session_1760013807,DM001,Delivery Manager 1,DM,,Capital of India?,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:43:40.398523,session_1760013819,DM001,Delivery Manager 1,DM,,RM001's name?,The name of RM001 is Delivery Manager 1.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:44:05.820799,session_1760013844,DM001,Delivery Manager 1,DM,,does not sound right,I apologize for any confusion. How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:45:55.748384,session_1760013954,RM001,Regional Manager 1,RM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:46:11.199570,session_1760013969,RM001,Regional Manager 1,RM,,capital of india?,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:50:53.004725,session_1760014251,RM001,Regional Manager 1,RM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T14:51:27.793587,session_1760014284,RM001,Regional Manager 1,RM,,capital of india,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,,0,0,0,,0.0
+2025-10-09T15:01:47.917782,session_1760014906,RM001,Regional Manager 1,RM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[HUMAN]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage multiple Delivery Managers
+- Regional reporting and analytics
+- Oversee resident performance
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[HUMAN]: hi",829,10,839,gpt-3.5-turbo,0.0
+2025-10-09T15:10:02.996509,session_1760015401,RM001,Regional Manager 1,RM,,hello world,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[HUMAN]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage multiple Delivery Managers
+- Regional reporting and analytics
+- Oversee resident performance
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[HUMAN]: hello world",830,10,840,gpt-3.5-turbo,0.0
+2025-10-09T15:12:38.736726,session_1760015557,DM001,Delivery Manager 1,DM,,hi sv,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[HUMAN]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[HUMAN]: hi sv",829,10,839,gpt-3.5-turbo,0.0
+2025-10-09T15:12:53.118818,session_1760015571,DM001,Delivery Manager 1,DM,,capital of india,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[HUMAN]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[HUMAN]: capital of india
+
+[AI]: 
+
+[TOOL]: Semantic search results for 'capital of india':
+
+No results found for 'capital of india'",874,9,883,gpt-3.5-turbo,0.0
+2025-10-09T15:17:37.247709,session_1760015855,RM001,Regional Manager 1,RM,,What is the weather today?,I'm unable to provide real-time weather updates. You may want to check a weather website or app for the most current information. How can I assist you with SportzVillage-related queries today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[USER]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage multiple Delivery Managers
+- Regional reporting and analytics
+- Oversee resident performance
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: What is the weather today?",834,41,875,gpt-3.5-turbo,0.0
+2025-10-09T15:19:41.432257,session_1760015979,RM001,Regional Manager 1,RM,,How many schools do we manage?,I couldn't find the exact number of schools we manage. Would you like me to try another approach to gather this information?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage multiple Delivery Managers
+- Regional reporting and analytics
+- Oversee resident performance
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: How many schools do we manage?
+
+[ASSISTANT]: 
+
+[TOOL]: Semantic search results for 'number of schools managed':
+
+No results found for 'number of schools managed'",883,26,909,gpt-3.5-turbo,0.0
+2025-10-09T15:24:55.809327,session_1760016294,DM001,Delivery Manager 1,DM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: hi",824,10,834,gpt-3.5-turbo,0.0
+2025-10-09T15:25:09.574785,session_1760016308,DM001,Delivery Manager 1,DM,,capital of france,The capital of France is Paris.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: capital of france",826,8,834,gpt-3.5-turbo,0.0

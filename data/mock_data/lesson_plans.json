@@ -1,0 +1,11 @@
+[
+  {
+    "lesson_plan_id": "LP001",
+    "school_id": "SCH001",
+    "session": "2024-25",
+    "lessons": [
+      "L001",
+      "L002"
+    ]
+  }
+]
