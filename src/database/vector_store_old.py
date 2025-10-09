@@ -1,4 +1,5 @@
 import chromadb
+import chromadb
 from chromadb.config import Settings
 from typing import List, Dict, Any, Optional
 import json
@@ -10,12 +11,66 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 
-# Import our silent ChromaDB wrapper to suppress telemetry errors
+# Import our silent ChromaDB wrapper
 from .silent_chromadb import create_silent_chroma_client
 
-# Comprehensive ChromaDB telemetry disabling via environment variables
+# Comprehensive ChromaDB telemetry disabling - simple and effective
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 os.environ["CHROMA_TELEMETRY"] = "False" 
+os.environ["CHROMA_SERVER_TELEMETRY"] = "False"
+os.environ["CHROMA_DISABLE_TELEMETRY"] = "True"
+
+# Additional telemetry disabling using a more targeted approach
+def _disable_chromadb_telemetry():
+    """Disable ChromaDB telemetry by monkey-patching problematic functions"""
+    try:
+        # Method 1: Patch the telemetry capture function after ChromaDB is imported
+        import chromadb.telemetry.capture as telemetry_capture
+        if hasattr(telemetry_capture, 'capture'):
+            def silent_capture(*args, **kwargs):
+                # Silently do nothing instead of capturing telemetry
+                return None
+            telemetry_capture.capture = silent_capture
+            
+    except (ImportError, AttributeError):
+        pass
+    
+    try:
+        # Method 2: Patch via the main chromadb module
+        import chromadb
+        if hasattr(chromadb, 'telemetry'):
+            if hasattr(chromadb.telemetry, 'capture'):
+                def silent_capture(*args, **kwargs):
+                    return None
+                chromadb.telemetry.capture = silent_capture
+    except (ImportError, AttributeError):
+        pass
+    
+    try:
+        # Method 3: More aggressive - redirect stderr temporarily during ChromaDB operations
+        import sys
+        import io
+        
+        # Store the original capture function and replace it
+        def patch_all_capture_functions():
+            for module_name in list(sys.modules.keys()):
+                if 'chromadb' in module_name and 'telemetry' in module_name:
+                    module = sys.modules[module_name]
+                    if hasattr(module, 'capture'):
+                        setattr(module, 'capture', lambda *args, **kwargs: None)
+        
+        patch_all_capture_functions()
+        
+    except Exception:
+        # Silently continue if telemetry patching fails
+        pass
+
+# Apply telemetry disabling
+_disable_chromadb_telemetry()
+
+# Disable ChromaDB telemetry globally - comprehensive approach
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+os.environ["CHROMA_TELEMETRY"] = "False"
 os.environ["CHROMA_SERVER_TELEMETRY"] = "False"
 os.environ["CHROMA_DISABLE_TELEMETRY"] = "True"
 
@@ -38,8 +93,8 @@ class VectorStoreService:
             openai_api_key=os.getenv("OPENAI_API_KEY")
         )
         
-        # Use our silent ChromaDB client to suppress telemetry errors
-        self.client = create_silent_chroma_client(
+        # Initialize ChromaDB client with comprehensive telemetry disabling
+        self.client = chromadb.PersistentClient(
             path=self.persist_directory,
             settings=Settings(
                 anonymized_telemetry=False,

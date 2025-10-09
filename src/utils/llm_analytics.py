@@ -69,22 +69,46 @@ class LLMAnalyticsCapture:
         prompt_parts = []
         
         print(f"[ANALYTICS] Extracting prompt from {len(messages)} messages")
-        for i, message in enumerate(messages):
-            role = message.__class__.__name__.replace("Message", "").lower()
-            content = str(message.content)
-            print(f"[ANALYTICS] Message {i}: {role} - Content: '{content[:200]}...'")
-            
-            # Better role mapping
-            if role == "human":
-                role_display = "USER"
-            elif role == "ai":
-                role_display = "ASSISTANT"  
-            elif role == "system":
-                role_display = "SYSTEM"
+        
+        # Handle case where messages might be nested lists
+        flat_messages = []
+        for item in messages:
+            if isinstance(item, list):
+                flat_messages.extend(item)
             else:
-                role_display = role.upper()
-            
-            prompt_parts.append(f"[{role_display}]: {content}")
+                flat_messages.append(item)
+        
+        for i, message in enumerate(flat_messages):
+            try:
+                # Check if message has content attribute
+                if hasattr(message, 'content'):
+                    role = message.__class__.__name__.replace("Message", "").lower()
+                    content = str(message.content)
+                elif hasattr(message, '__dict__'):
+                    # Fallback for objects with dict representation
+                    role = str(type(message).__name__).lower()
+                    content = str(message)
+                else:
+                    # Last resort for other types
+                    role = "unknown"
+                    content = str(message)
+                
+                print(f"[ANALYTICS] Message {i}: {role} - Content: '{content[:200]}...'")
+                
+                # Better role mapping
+                if role == "human":
+                    role_display = "USER"
+                elif role == "ai":
+                    role_display = "ASSISTANT"  
+                elif role == "system":
+                    role_display = "SYSTEM"
+                else:
+                    role_display = role.upper()
+                
+                prompt_parts.append(f"[{role_display}]: {content}")
+            except Exception as e:
+                print(f"[ANALYTICS] Error processing message {i}: {e}")
+                prompt_parts.append(f"[ERROR]: Could not process message - {str(message)[:100]}")
         
         full_prompt = "\n\n".join(prompt_parts)
         print(f"[ANALYTICS] Full prompt created - Length: {len(full_prompt)}")

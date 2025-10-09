@@ -7,6 +7,7 @@ human-in-the-loop capabilities, and state management.
 from typing import Dict, List, Any, Optional, Annotated
 from typing_extensions import TypedDict
 import os
+import logging
 from dotenv import load_dotenv
 
 # LangGraph imports
@@ -32,6 +33,17 @@ from ..database.interface import get_database, UserRole
 from ..database.chat_logger import get_chat_logger
 from ..utils.llm_analytics import capture_llm_interaction
 
+# Debug logging helper
+DEBUG_MODE = os.getenv("SV_DEBUG_MODE", "false").lower() == "true"
+logger = logging.getLogger(__name__)
+
+def debug_print(message: str):
+    """Print debug messages only if DEBUG_MODE is enabled"""
+    if DEBUG_MODE:
+        print(message)
+    else:
+        logger.debug(message)
+
 load_dotenv()
 
 
@@ -43,31 +55,31 @@ class LangGraphLLMCallback(BaseCallbackHandler):
         self.llm_data = None
         self.current_messages = []
         self.response_text = ""
-        print("[CALLBACK] LangGraph LLM Callback initialized")
+        # LangGraph LLM Callback initialized
     
     def on_chat_model_start(self, serialized, messages, **kwargs):
         """Capture the messages being sent to the chat model"""
-        print(f"[CALLBACK] Chat model start - {len(messages)} messages")
+        debug_print(f"[CALLBACK] Chat model start - {len(messages)} messages")
         self.current_messages = messages
         self.llm_data = None
         self.response_text = ""
     
     def on_llm_start(self, serialized, prompts, **kwargs):
         """Alternative callback method for LLM start"""
-        print(f"[CALLBACK] LLM start - {len(prompts)} prompts")
+        debug_print(f"[CALLBACK] LLM start - {len(prompts)} prompts")
         if prompts:
             self.current_prompt = prompts[0]
     
     def on_chat_model_end(self, response, **kwargs):
         """Capture the response from the chat model"""
-        print(f"[CALLBACK] Chat model end - response type: {type(response)}")
+        debug_print(f"[CALLBACK] Chat model end - response type: {type(response)}")
         try:
             if hasattr(response, 'content'):
                 self.response_text = str(response.content)
             elif hasattr(response, 'generations') and response.generations:
                 self.response_text = str(response.generations[0][0].message.content)
             
-            print(f"[CALLBACK] Response captured: {len(self.response_text)} chars")
+            debug_print(f"[CALLBACK] Response captured: {len(self.response_text)} chars")
             
             # Create analytics data
             if self.current_messages and self.response_text:
@@ -78,14 +90,14 @@ class LangGraphLLMCallback(BaseCallbackHandler):
                     model_name="gpt-3.5-turbo",
                     temperature=0.0
                 )
-                print(f"[CALLBACK] LLM analytics created: {self.llm_data is not None}")
+                debug_print(f"[CALLBACK] LLM analytics created: {self.llm_data is not None}")
         except Exception as e:
-            print(f"[CALLBACK] Error capturing LLM analytics: {e}")
+            debug_print(f"[CALLBACK] Error capturing LLM analytics: {e}")
             self.llm_data = None
     
     def on_llm_end(self, response, **kwargs):
         """Alternative callback method for LLM end"""
-        print(f"[CALLBACK] LLM end - response type: {type(response)}")
+        debug_print(f"[CALLBACK] LLM end - response type: {type(response)}")
         self.on_chat_model_end(response, **kwargs)
 
 
@@ -215,9 +227,9 @@ class SVLangGraphAgent:
     
     def _agent_node(self, state: SVAgentState) -> SVAgentState:
         """Main agent reasoning node"""
-        print("[AGENT_NODE] Starting agent node")
-        print(f"[AGENT_NODE] User info: {state['user_info']}")
-        print(f"[AGENT_NODE] Input messages: {[msg.content[:100] + '...' if len(msg.content) > 100 else msg.content for msg in state['messages']]}")
+        debug_print("[AGENT_NODE] Starting agent node")
+        debug_print(f"[AGENT_NODE] User info: {state['user_info']}")
+        debug_print(f"[AGENT_NODE] Input messages: {[msg.content[:100] + '...' if len(msg.content) > 100 else msg.content for msg in state['messages']]}")
         
         # Bind tools to the model
         model_with_tools = self.llm.bind_tools(self.tools)
@@ -226,27 +238,27 @@ class SVLangGraphAgent:
         system_message = self._get_system_message(state["user_info"])
         messages = [system_message] + state["messages"]
         
-        print(f"[AGENT_NODE] Total messages to send: {len(messages)}")
-        print(f"[AGENT_NODE] System message: {system_message.content[:200]}...")
+        debug_print(f"[AGENT_NODE] Total messages to send: {len(messages)}")
+        debug_print(f"[AGENT_NODE] System message: {system_message.content[:200]}...")
         for i, msg in enumerate(messages):
-            print(f"[AGENT_NODE] Message {i}: {type(msg).__name__} - {msg.content[:100]}...")
+            debug_print(f"[AGENT_NODE] Message {i}: {type(msg).__name__} - {msg.content[:100]}...")
         
         # Capture the exact messages being sent
         try:
             from ..utils.llm_analytics import capture_llm_interaction
             from datetime import datetime
             
-            print("[AGENT_NODE] About to invoke LLM...")
+            debug_print("[AGENT_NODE] About to invoke LLM...")
             
             # Get response from LLM
             response = model_with_tools.invoke(messages)
             
-            print(f"[AGENT_NODE] Got response type: {type(response)}")
-            print(f"[AGENT_NODE] Response content: {response.content[:200]}...")
+            debug_print(f"[AGENT_NODE] Got response type: {type(response)}")
+            debug_print(f"[AGENT_NODE] Response content: {response.content[:200]}...")
             
             # Check for usage metadata
             if hasattr(response, 'usage_metadata') and response.usage_metadata:
-                print(f"[AGENT_NODE] Usage metadata: {response.usage_metadata}")
+                debug_print(f"[AGENT_NODE] Usage metadata: {response.usage_metadata}")
                 
                 # Create comprehensive analytics data with usage metadata
                 analytics_data = capture_llm_interaction(

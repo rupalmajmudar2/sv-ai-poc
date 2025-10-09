@@ -27,6 +27,14 @@ This application serves different roles in the SportzVillage organization:
 - **Head Office (HO)**: System-wide oversight, comprehensive reporting, stakeholder communication
 - **School Principals**: View SV activities in their schools, receive regular reports
 
+## 📚 Documentation
+
+Comprehensive documentation is available in the [`docs/`](docs/) folder:
+- **[Documentation Index](docs/README.md)** - Complete guide to all documentation
+- **[Vector Database Tools](docs/VECTOR_DB_TOOLS.md)** - Database exploration and management
+- **[Migration Summary](docs/MIGRATION_COMPLETE.md)** - LangGraph architecture details
+- **[Cleanup Summary](docs/CLEANUP_SUMMARY.md)** - Troubleshooting and fixes
+
 ## Architecture
 
 - **LangGraph Agent**: Modern workflow-based agent with state management and human-in-the-loop capabilities
@@ -48,7 +56,7 @@ This application serves different roles in the SportzVillage organization:
 # Clone and setup everything in one go
 git clone <repository-url>
 cd sv-ai-poc-v1
-python setup.py --run
+python tools/setup.py --run
 ```
 
 ### Manual Setup
@@ -66,10 +74,10 @@ cp .env.example .env
 streamlit run main.py
 
 # With continuous testing
-python setup.py --watch
+python tools/setup.py --watch
 
 # Run tests once
-python setup.py --test
+python tools/setup.py --test
 ```
 
 ### Demo Credentials
@@ -103,8 +111,11 @@ sv-ai-poc-v1/
 ├── data/
 │   ├── mock_data/                   # Mock JSON files for development
 │   └── chromadb/                    # Vector database persistence
+├── tools/
+│   ├── setup.py                     # Main setup & environment manager
+│   ├── setup_venv.py               # Virtual environment creator
+│   └── start_tests.py              # Easy continuous testing launcher
 ├── main.py                          # Streamlit application entry point
-├── start_tests.py                   # Easy continuous testing launcher
 ├── pytest.ini                      # Test configuration
 └── requirements.txt                 # Comprehensive dependencies
 ```
@@ -185,10 +196,10 @@ SMS_API_KEY=your_sms_key
 ### Continuous Testing
 ```bash
 # Start continuous test suite (recommended for development)
-python start_tests.py
+python tools/start_tests.py
 
 # Or use setup script
-python setup.py --watch
+python tools/setup.py --watch
 
 # Manual continuous runner
 python tests/continuous_runner.py --mode continuous
@@ -197,7 +208,7 @@ python tests/continuous_runner.py --mode continuous
 ### Single Test Runs
 ```bash
 # Quick test run
-python setup.py --test
+python tools/setup.py --test
 
 # Full test suite with coverage
 python -m pytest tests/ --cov=src --cov-report=html
@@ -209,7 +220,7 @@ python -m pytest -m "integration"  # Integration tests only
 ```
 
 ### Development Workflow
-1. **Start Continuous Tests**: `python start_tests.py`
+1. **Start Continuous Tests**: `python tools/start_tests.py`
 2. **Develop Features**: Tests run automatically on file changes
 3. **Check Coverage**: View HTML reports in `htmlcov/`
 4. **Run App**: `streamlit run main.py` in another terminal
@@ -291,16 +302,43 @@ python -m pytest -m "integration"  # Integration tests only
 - **Distributed Execution**: Scale workflows across multiple instances
 - **Advanced Human-AI Collaboration**: Sophisticated approval and oversight systems
 
+## 🛠️ Utilities & Scripts
+
+The project includes powerful utilities for database exploration and management:
+
+### Interactive Vector Database Explorer
+```bash
+# Windows
+scripts\vector_explorer.bat
+
+# Unix/Linux/macOS  
+scripts/vector_explorer.sh
+```
+
+### Quick Commands
+```bash
+# Explore database collections
+python scripts/explore_vectordb.py
+
+# Test semantic search
+python scripts/test_semantic_search.py --query "your question"
+
+# Show database statistics
+python scripts/manage_vectordb.py stats
+```
+
+See [`scripts/README.md`](scripts/README.md) for complete documentation.
+
 ## 🆘 Support & Troubleshooting
 
 ### Common Issues
-1. **Tests failing**: Run `python setup.py --test` to see specific errors
+1. **Tests failing**: Run `python tools/setup.py --test` to see specific errors
 2. **Agent not responding**: Check OPENAI_API_KEY in `.env`
 3. **Import errors**: Run `pip install -r requirements.txt`
 4. **Vector database issues**: Delete `data/chromadb/` to reset
 
 ### Development Support
-- **Continuous Tests**: Monitor `python start_tests.py` output for real-time feedback
+- **Continuous Tests**: Monitor `python tools/start_tests.py` output for real-time feedback
 - **Coverage Reports**: Check `htmlcov/index.html` for test coverage details
 - **Agent Debugging**: Use `AGENT_TYPE=langchain` for simpler debugging if needed
 - **Test Categories**: Run specific test types with `-m` markers

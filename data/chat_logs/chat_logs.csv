@@ -162,3 +162,259 @@ Use semantic search when you need to find specific information.
 Be concise but comprehensive in your responses.
 
 [USER]: capital of france",826,8,834,gpt-3.5-turbo,0.0
+2025-10-09T17:29:54.997891,session_1760023793,DM001,Delivery Manager 1,DM,,hi msg1,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: hi msg1",826,10,836,gpt-3.5-turbo,0.0
+2025-10-09T17:30:16.882286,session_1760023815,DM001,Delivery Manager 1,DM,,what is DM001 's name?,The name of DM001 is Resident 1.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: what is DM001 's name?
+
+[ASSISTANT]: 
+
+[TOOL]: Residents under Manager DM001:
+
+- Resident 1 (ID: R001)
+  Assigned to School: SCH001
+",881,11,892,gpt-3.5-turbo,0.0
+2025-10-09T17:30:29.592301,session_1760023828,DM001,Delivery Manager 1,DM,,capital of india?,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: capital of india?",827,9,836,gpt-3.5-turbo,0.0
+2025-10-09T17:41:01.579404,session_1760024459,DM001,Delivery Manager 1,DM,,hi2,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: hi2",825,10,835,gpt-3.5-turbo,0.0
+2025-10-09T17:41:19.834618,session_1760024478,DM001,Delivery Manager 1,DM,,where is sportzvillage hq?,"The SportzVillage headquarters is located in Bangalore, India.","[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: where is sportzvillage hq?",832,14,846,gpt-3.5-turbo,0.0
+2025-10-09T17:42:10.035932,session_1760024527,DM001,Delivery Manager 1,DM,,how many schools managed by sv?,There are no schools currently managed by SportzVillage under Delivery Manager 1.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: how many schools managed by sv?
+
+[ASSISTANT]: 
+
+[TOOL]: No residents found under manager 1",862,18,880,gpt-3.5-turbo,0.0
+2025-10-09T17:43:19.623251,session_1760024598,DM001,Delivery Manager 1,DM,,capital of india?,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: capital of india?",827,9,836,gpt-3.5-turbo,0.0
+2025-10-09T18:18:54.108515,session_20251009_181854,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23,,0,0,0,,0.0
+2025-10-09T18:21:13.121670,session_20251009_182113,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23,,0,0,0,,0.0
+2025-10-09T18:25:26.003250,session_1760027124,RM001,Regional Manager 1,RM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage multiple Delivery Managers
+- Regional reporting and analytics
+- Oversee resident performance
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: hi",825,10,835,gpt-3.5-turbo,0.0
+2025-10-09T18:30:29.218065,session_1760027427,DM001,Delivery Manager 1,DM,,hi,Hello! How can I assist you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: hi",824,10,834,gpt-3.5-turbo,0.0
+2025-10-09T18:30:40.075839,session_1760027439,DM001,Delivery Manager 1,DM,,capital of india,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: capital of india",826,9,835,gpt-3.5-turbo,0.0
+2025-10-09T18:34:30.457981,session_1760027668,DM001,Delivery Manager 1,DM,,SV hq?,How can I assist you with SportzVillage Head Office (HO)?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: SV hq?",827,16,843,gpt-3.5-turbo,0.0
+2025-10-09T18:34:40.555545,session_1760027679,DM001,Delivery Manager 1,DM,,where?,Where would you like to start or what specific information do you need assistance with today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: where?",825,18,843,gpt-3.5-turbo,0.0
+2025-10-09T18:34:57.142969,session_1760027696,DM001,Delivery Manager 1,DM,,sv hq where?,"The SportzVillage Head Office is located in Bangalore, India.","[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: sv hq where?",828,15,843,gpt-3.5-turbo,0.0
+2025-10-09T18:42:57.607609,session_20251009_184257,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23,,0,0,0,,0.0
+2025-10-09T18:43:40.133587,session_20251009_184340,test_123,Test User,R,SCH001,What is my timetable today?,"Here is your timetable for today: Math at 9am, PE at 10am...","[""TimetableTool""]",1.23,,0,0,0,,0.0
+2025-10-09T18:46:16.219583,session_1760028375,DM001,Delivery Manager 1,DM,,hi how are you,Hello! I'm here and ready to assist you. How can I help you today?,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: hi how are you",827,19,846,gpt-3.5-turbo,0.0
+2025-10-09T18:46:28.432233,session_1760028387,DM001,Delivery Manager 1,DM,,capital of india,The capital of India is New Delhi.,"[""timetable_tool"", ""lesson_plan_tool"", ""props_tool"", ""semantic_search_tool"", ""residents_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""report_generator_tool"", ""enhanced_report_tool"", ""vector_cache_refresh_tool""]",0,"[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).
+
+SportzVillage manages school sports programs with this hierarchy:
+- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)
+- School Principals (PRINCIPAL) receive reports
+
+Your role-specific capabilities:
+- Manage residents in assigned schools
+- Generate operational reports
+- Monitor daily activities
+
+CRITICAL: Always provide accurate, helpful information. Never hallucinate data.
+Use semantic search when you need to find specific information.
+Be concise but comprehensive in your responses.
+
+[USER]: capital of india",826,9,835,gpt-3.5-turbo,0.0

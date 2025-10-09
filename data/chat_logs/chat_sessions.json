@@ -1221,6 +1221,787 @@
         "contains_resident_data": false,
         "is_question": false
       }
+    },
+    {
+      "timestamp": "2025-10-09T17:29:54.997891",
+      "session_id": "session_1760023793",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi msg1",
+        "message_length": 7,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: hi msg1",
+        "prompt_tokens": 826,
+        "completion_tokens": 10,
+        "total_tokens": 836,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T17:30:16.882286",
+      "session_id": "session_1760023815",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "what is DM001 's name?",
+        "message_length": 22,
+        "response": "The name of DM001 is Resident 1.",
+        "response_length": 32,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: what is DM001 's name?\n\n[ASSISTANT]: \n\n[TOOL]: Residents under Manager DM001:\n\n- Resident 1 (ID: R001)\n  Assigned to School: SCH001\n",
+        "prompt_tokens": 881,
+        "completion_tokens": 11,
+        "total_tokens": 892,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T17:30:29.592301",
+      "session_id": "session_1760023828",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india?",
+        "message_length": 17,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: capital of india?",
+        "prompt_tokens": 827,
+        "completion_tokens": 9,
+        "total_tokens": 836,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T17:41:01.579404",
+      "session_id": "session_1760024459",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi2",
+        "message_length": 3,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: hi2",
+        "prompt_tokens": 825,
+        "completion_tokens": 10,
+        "total_tokens": 835,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T17:41:19.834618",
+      "session_id": "session_1760024478",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "where is sportzvillage hq?",
+        "message_length": 26,
+        "response": "The SportzVillage headquarters is located in Bangalore, India.",
+        "response_length": 62,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: where is sportzvillage hq?",
+        "prompt_tokens": 832,
+        "completion_tokens": 14,
+        "total_tokens": 846,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T17:42:10.035932",
+      "session_id": "session_1760024527",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "how many schools managed by sv?",
+        "message_length": 31,
+        "response": "There are no schools currently managed by SportzVillage under Delivery Manager 1.",
+        "response_length": 81,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: how many schools managed by sv?\n\n[ASSISTANT]: \n\n[TOOL]: No residents found under manager 1",
+        "prompt_tokens": 862,
+        "completion_tokens": 18,
+        "total_tokens": 880,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": true,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T17:43:19.623251",
+      "session_id": "session_1760024598",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india?",
+        "message_length": 17,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: capital of india?",
+        "prompt_tokens": 827,
+        "completion_tokens": 9,
+        "total_tokens": 836,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:18:54.108515",
+      "session_id": "session_20251009_181854",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:21:13.121670",
+      "session_id": "session_20251009_182113",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:25:26.003250",
+      "session_id": "session_1760027124",
+      "user": {
+        "user_id": "RM001",
+        "name": "Regional Manager 1",
+        "role": "RM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Regional Manager 1 (RM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage multiple Delivery Managers\n- Regional reporting and analytics\n- Oversee resident performance\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: hi",
+        "prompt_tokens": 825,
+        "completion_tokens": 10,
+        "total_tokens": 835,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:30:29.218065",
+      "session_id": "session_1760027427",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi",
+        "message_length": 2,
+        "response": "Hello! How can I assist you today?",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: hi",
+        "prompt_tokens": 824,
+        "completion_tokens": 10,
+        "total_tokens": 834,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:30:40.075839",
+      "session_id": "session_1760027439",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india",
+        "message_length": 16,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: capital of india",
+        "prompt_tokens": 826,
+        "completion_tokens": 9,
+        "total_tokens": 835,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:34:30.457981",
+      "session_id": "session_1760027668",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "SV hq?",
+        "message_length": 6,
+        "response": "How can I assist you with SportzVillage Head Office (HO)?",
+        "response_length": 57,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: SV hq?",
+        "prompt_tokens": 827,
+        "completion_tokens": 16,
+        "total_tokens": 843,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:34:40.555545",
+      "session_id": "session_1760027679",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "where?",
+        "message_length": 6,
+        "response": "Where would you like to start or what specific information do you need assistance with today?",
+        "response_length": 93,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: where?",
+        "prompt_tokens": 825,
+        "completion_tokens": 18,
+        "total_tokens": 843,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:34:57.142969",
+      "session_id": "session_1760027696",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "sv hq where?",
+        "message_length": 12,
+        "response": "The SportzVillage Head Office is located in Bangalore, India.",
+        "response_length": 61,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: sv hq where?",
+        "prompt_tokens": 828,
+        "completion_tokens": 15,
+        "total_tokens": 843,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:42:57.607609",
+      "session_id": "session_20251009_184257",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:43:40.133587",
+      "session_id": "session_20251009_184340",
+      "user": {
+        "user_id": "test_123",
+        "name": "Test User",
+        "role": "R",
+        "school_id": "SCH001"
+      },
+      "interaction": {
+        "message": "What is my timetable today?",
+        "message_length": 27,
+        "response": "Here is your timetable for today: Math at 9am, PE at 10am...",
+        "response_length": 60,
+        "tools_used": [
+          "TimetableTool"
+        ],
+        "response_time_seconds": 1.23
+      },
+      "llm_analytics": {
+        "llm_prompt": "",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "model_used": "",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "question",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": true
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:46:16.219583",
+      "session_id": "session_1760028375",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "hi how are you",
+        "message_length": 14,
+        "response": "Hello! I'm here and ready to assist you. How can I help you today?",
+        "response_length": 66,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: hi how are you",
+        "prompt_tokens": 827,
+        "completion_tokens": 19,
+        "total_tokens": 846,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "help",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
+    },
+    {
+      "timestamp": "2025-10-09T18:46:28.432233",
+      "session_id": "session_1760028387",
+      "user": {
+        "user_id": "DM001",
+        "name": "Delivery Manager 1",
+        "role": "DM",
+        "school_id": null
+      },
+      "interaction": {
+        "message": "capital of india",
+        "message_length": 16,
+        "response": "The capital of India is New Delhi.",
+        "response_length": 34,
+        "tools_used": [
+          "timetable_tool",
+          "lesson_plan_tool",
+          "props_tool",
+          "semantic_search_tool",
+          "residents_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "report_generator_tool",
+          "enhanced_report_tool",
+          "vector_cache_refresh_tool"
+        ],
+        "response_time_seconds": 0.0
+      },
+      "llm_analytics": {
+        "llm_prompt": "[SYSTEM]: You are the SportzVillage AI Assistant helping Delivery Manager 1 (DM).\n\nSportzVillage manages school sports programs with this hierarchy:\n- Head Office (HO) → Regional Manager (RM) → Delivery Manager (DM) → Residents (R)\n- School Principals (PRINCIPAL) receive reports\n\nYour role-specific capabilities:\n- Manage residents in assigned schools\n- Generate operational reports\n- Monitor daily activities\n\nCRITICAL: Always provide accurate, helpful information. Never hallucinate data.\nUse semantic search when you need to find specific information.\nBe concise but comprehensive in your responses.\n\n[USER]: capital of india",
+        "prompt_tokens": 826,
+        "completion_tokens": 9,
+        "total_tokens": 835,
+        "model_used": "gpt-3.5-turbo",
+        "temperature": 0.0
+      },
+      "metadata": {
+        "message_type": "general",
+        "contains_school_data": false,
+        "contains_resident_data": false,
+        "is_question": false
+      }
     }
   ]
 }

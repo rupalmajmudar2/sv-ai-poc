@@ -11,7 +11,7 @@ from pathlib import Path
 
 def main():
     """Start the continuous test suite"""
-    project_root = Path(__file__).parent
+    project_root = Path(__file__).parent.parent
     
     print("🚀 Starting SportzVillage AI Continuous Test Suite")
     print("📋 This will:")

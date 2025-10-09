@@ -432,7 +432,7 @@ def manager_interface():
                                         display_text = prompt_text
                                     
                                     # Show the prompt in a text area
-                                    st.text_area("", display_text, height=250, key=f"prompt_{timestamp}")
+                                    st.text_area("Prompt Content", display_text, height=250, key=f"prompt_{timestamp}", label_visibility="collapsed")
                                     
                                     # Also show a summary
                                     lines = prompt_text.split('\n')
@@ -709,8 +709,9 @@ def chat_interface(context_id: str = "general"):
     
     # Display current session chat history
     for message in st.session_state.chat_history:
-        with st.chat_message(message["role"]):
-            st.write(message["content"])
+        if message.get("content", "").strip():  # Only display non-empty messages
+            with st.chat_message(message["role"]):
+                st.write(message["content"])
     
     # Chat input - using a dynamic key to avoid session state modification issues
     input_key = f"input_counter_{context_id}"
