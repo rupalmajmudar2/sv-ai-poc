@@ -176,3 +176,44 @@ SMS_API_ENDPOINT=...           # For SMS functionality
 - **Data Filtering**: Always filter by school/class/section to avoid loading massive datasets
 - **Role Validation**: Agent checks user role before tool execution
 - **State Management**: Streamlit session state for authentication and chat history
+
+## Additional prompts by RM during the development phase
+
+- Update the instructions using the follwing text: "I want to build an ai llm application for different audiences in a school sports environment run by SportzVillage  SV : The Regional Manager (RM) ..."
+
+- make a start-version which incorporates these requirements.undo any installation you'r doing
+    - create a venv for this project and install everything in there
+    - For a mock db which only has text files, you can skip auth and return success. Implement it fully when we switch to using a real DB. For now, just have one txt file per table
+    - always use PrimaryKey PK in the form <tablename>_id e.g. user_id
+    - place all the tests in a separate test folder. 
+    - Make sure TextDatabase and the real db are accessed via the same interface.
+
+- does this design use a vector db to cache info? ... do it.
+at this point, what is the data in the vector db?
+guide me thru the python commands to explore my vector db to see the above infos
+
+- Explain how best I can add some standard "base context" via some SV docs (RAG) into this system - which explain the documented processes for this data management and reporting at SV schools
+
+- ok so now how do i test what we have so far?
+    - and make sure all new tests go into the full test suite   
+    - using venv. run ALL the tests of this project
+    - review the warnings in the tests above. esp for deprecations
+
+- run the app
+
+- 2 q's : (1) WHat exactly is langchain doing in this application? (2) How can I fetch the user-enterd texts / questions from the application - along with timestamp and username
+
+wait - should we move to langgraph as recommended? what are the pros and cons?
+we have a lot to do ahead, including human-in-the loop. And we're still early in our effots. So going with langgraph sounds ok . Use venv.
+update the requirements to reflect (1) That tests should be integrated into a suite that should stay running all the time (2) langgraph for the given reasons 
+
+- also, in the analytics tab, can we log (1) The exact complete text that is being sent to the llm (2) The number of tokens being sent + received?
+- better but i still do not see the user (my) prompts to the chat llm 
+- in the token usage, are we including the tokens of the response? I pay for those too right?
+
+theres a bunch of *_vectordb_*.py files in the root dir of this project. THe ones we still require, move to scripts folder. Or is scripts folder has all it needs, remove these. also .md files check
+
+commit to git as v0.1
+the remote repo is at https://github.com/rupalmajmudar2/sv-ai-poc.git . Push there when ready
+
+- how are documents, url's handled in this solution? Is it classical RAG or will it be in agentic form via the LLM? See this article for reference: https://medium.com/@bhagyarana80/rag-is-dead-why-enterprises-shun-vector-dbs-for-agent-architecture-f0f85c5dd367
